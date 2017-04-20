@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="author" content="Juan David Rodrgiez Diaz">
+	<meta name="keywords" content="jdrd, Juan, David, Rodriguez, Diaz, Hoja, Vida">
+	<meta name="description" content="esta es mi hoja de vida espero que les guste">
+	<title>Hoja de Vida JDRD</title>
+</head>
+<body>
+
+	<header>
+		<center><svg width="100px" height="100px" viewbox="0 0 600 400">
+			<image width="1050px" height="860px" xlink:href="imag/logo.svg"></image>
+		</svg></center>
+
+		<center><h1>Hoja de Vida</h1></center>
+		<h2>Juan David Rodriguez Diaz</h2>
+		<h3>Bogota, 24 de Julio de 1990</h3>
+	</header>
+	
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+
+	<section>
+
+		<h2>Educacion</h2>
+
+		<table border="1">
+				<!-- esta es la etiqueta,  para darle orden a la tabla identificando thead, tbody, tfoot -->
+			<thead>
+				<tr>
+					<!--con la etiqueta <th>,  resaltamos en negrilla y centramos los encabezados-->
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Carrera</th>
+					<th>Lugar</th>
+					<th>¿Culmino?</th>
+				</tr>		
+			</thead>
+
+			<tbody>
+				<tr>
+					<td>2012</td>
+					<td>UNIVERSIDAD LOS LIBERTADORES DE COLOMBIA</td>
+					<td>INGENIERÍA INDUSTRIAL</td>
+					<td>Bogota - Colombia</td>
+					<td><center>Si</center></td>
+				</tr>
+
+				<tr>
+					<td>2012</td>
+					<td>BENEMÉRITA UNIVERSIDAD AUTÓNOMA DE PUEBLA</td>
+					<td>DISEÑO Y GESTIÓN DE PROYECTOS PARA LA INNOVACIÓN INDUSTRIAL</td>
+					<td>Puebla - Mexico</td>
+					<td><center>Si</center></td>
+				</tr>
+
+				<tr>
+					<td>2010</td>
+					<td>FUNDACIÓN UNIVERSITARIA CIDCA</td>
+					<td>TECNÓLOGO INDUSTRIAL</td>
+					<td>Bogota - Colombia</td>
+					<td><center>Si</center></td>
+				</tr>
+
+				<tr>
+					<td>2014</td>
+					<td>ASOCIACIÓN NACIONAL DE EMPRESARIOS DE COLOMBIA</td>
+					<td>INNOVACIÓN EN EL SUPPLY CHAIN</td>
+					<td>Cali - Colombia</td>
+					<td><center>Si</center></td>
+				</tr>
+
+				<tr>
+					<td>2017</td>
+					<td>NEXT UNIVERSITY</td>
+					<td>DISEÑO</td>
+					<td>Bogota - Colombia</td>
+					<td><center>Actualmente</center></td>
+				</tr>
+
+			</tbody>
+
+		</table>
+
+		<h2>Agregar Estudios</h2>
+		
+		<form autocomplete="on" name="form1">
+			<fieldset>
+				
+				<legend>Nuevos Estudios</legend>
+
+				<label><strong>Año: </strong></label>
+
+					<select>
+						<option>2015</option>
+						<option>2016</option>
+						<option>2017</option>
+						<option>2018</option>
+						<option>2019</option>
+						<option>2020</option>
+					</select>
+				
+				<br><br>
+				<label><strong>Institución: </strong></label>
+				<input type="text" name="inst" id="inst" size="50px" placeholder="Nombre de la Institución" required>
+
+				<br><br>
+				<label><strong>Carrera:   </strong></label>
+				<input type="text" name="Carr" id="Carr" size="50px" placeholder="Nombre de la Carrera" required>
+
+				<br><br>
+				<label><strong>Lugar: </strong></label>
+				<textarea name="lug" id="lug" rows="3" cols="40" placeholder="Ciudad en Donde Curso" required></textarea>
+
+				<br><br>
+				<label><strong>¿Culmino?: </strong></label>
+				
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Si
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> No
+				</label>
+				<label class="radio-inline">
+				  <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> Actualmente
+				</label>
+
+
+				<br><br>
+				<input type="submit" name="btn" id="btn" value="Enviar">
+
+			</fieldset>
+		</form>
+	</section>
+
+	<br><br>
+	<footer>
+		<fieldset>
+			<ul>
+				<li><strong>Correo Electronico: </strong>ing_ind_jdrd@live.com // juand.rodriguez2016@gmail.com</li>
+				<li><strong>Telefono: </strong> 310 775 6285</li>
+				<li><strong>Dirección: </strong> Calle 45C Sur # 3G – 59 Este Bloque 36 Casa</li>
+			</ul>
+		</fieldset>
+	</footer>
+
+
+</body>
+</html>
